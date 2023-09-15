@@ -87,3 +87,45 @@ a{
 button{
   width: 64px;
 }
+
+.heading-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 0 150px 64px;
+}
+
+h3{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.sub-container{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 100px;
+}
+
+.box-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.square{
+  border: 5px solid blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.heading-3{
+  background-color: #e5e7eb;
+}
